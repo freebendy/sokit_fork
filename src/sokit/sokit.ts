@@ -338,37 +338,37 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QLineEdit</name>
     <message>
-        <location filename="main.cpp" line="48"/>
+        <location filename="main.cpp" line="50"/>
         <source>&amp;Undo</source>
         <translation type="unfinished">撤销</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="49"/>
+        <location filename="main.cpp" line="51"/>
         <source>&amp;Redo</source>
         <translation type="unfinished">重做</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="50"/>
+        <location filename="main.cpp" line="52"/>
         <source>Cu&amp;t</source>
         <translation type="unfinished">剪切</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="51"/>
+        <location filename="main.cpp" line="53"/>
         <source>&amp;Copy</source>
         <translation type="unfinished">复制</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="52"/>
+        <location filename="main.cpp" line="54"/>
         <source>&amp;Paste</source>
         <translation type="unfinished">粘贴</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="53"/>
+        <location filename="main.cpp" line="55"/>
         <source>Delete</source>
         <translation type="unfinished">删除</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="54"/>
+        <location filename="main.cpp" line="56"/>
         <source>Select All</source>
         <translation type="unfinished">全选</translation>
     </message>
@@ -376,37 +376,37 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QTextControl</name>
     <message>
-        <location filename="main.cpp" line="56"/>
+        <location filename="main.cpp" line="58"/>
         <source>&amp;Undo</source>
         <translation type="unfinished">撤销</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="57"/>
+        <location filename="main.cpp" line="59"/>
         <source>&amp;Redo</source>
         <translation type="unfinished">重做</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="58"/>
+        <location filename="main.cpp" line="60"/>
         <source>Cu&amp;t</source>
         <translation type="unfinished">剪切</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="59"/>
+        <location filename="main.cpp" line="61"/>
         <source>&amp;Copy</source>
         <translation type="unfinished">复制</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="60"/>
+        <location filename="main.cpp" line="62"/>
         <source>&amp;Paste</source>
         <translation type="unfinished">粘贴</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="61"/>
+        <location filename="main.cpp" line="63"/>
         <source>Delete</source>
         <translation type="unfinished">删除</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="62"/>
+        <location filename="main.cpp" line="64"/>
         <source>Select All</source>
         <translation type="unfinished">全选</translation>
     </message>
@@ -515,12 +515,12 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>Sokit</name>
     <message>
-        <location filename="main.cpp" line="108"/>
+        <location filename="main.cpp" line="110"/>
         <source>font</source>
         <translation type="unfinished">Microsoft YaHei,10;微软雅黑,10;WenQuanYi Micro Hei,11;文泉驿微米黑,11;DejaVu Sans,11;WenQuanYi Zen Hei,10;文泉驿正黑,10;宋体,9;SimSun,9;FangSong,11.5;AR PL UMing CN,10.5;</translation>
     </message>
     <message>
-        <location filename="main.cpp" line="159"/>
+        <location filename="main.cpp" line="161"/>
         <source>sokit -- F1 for help</source>
         <translation type="unfinished">sokit -- F1获取帮助</translation>
     </message>

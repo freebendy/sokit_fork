@@ -13,7 +13,7 @@ QPlainTextEdit  *DEBUG_MESSAGE_DISPLAY_TEXTEDIT = NULL;
 
 void debugMessageDisplayFunc(QtMsgType type, const char *msg)
 {
-    bool do_abort = false;
+//    bool do_abort = false;
     const char* msgTypeStr = NULL;
     switch (type) {
     case QtDebugMsg:
@@ -27,7 +27,7 @@ void debugMessageDisplayFunc(QtMsgType type, const char *msg)
         break;
     case QtFatalMsg:
         msgTypeStr = "Fatal";
-        do_abort = true;
+//        do_abort = true;
     default:
         assert(0);
         return;

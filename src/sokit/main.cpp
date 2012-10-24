@@ -13,7 +13,9 @@
 #include "helpform.h"
 #include "main.h"
 
-#ifdef Q_OS_WIN32
+#define BEN_LOG_WINDOW
+
+#ifdef BEN_LOG_WINDOW
 #include "logmessagehandler.h"
 #endif
 
@@ -199,7 +201,7 @@ int main(int argc, char *argv[])
 {
     Sokit a(argc, argv);
 
-#ifdef Q_OS_WIN32
+#ifdef BEN_LOG_WINDOW
     a.setQuitOnLastWindowClosed( true );
     setupDebugDisplay();
 #endif
@@ -209,8 +211,8 @@ int main(int argc, char *argv[])
     else
         a.close();
     int ret = a.exec();
-#ifdef Q_OS_WIN32
+#ifdef BEN_LOG_WINDOW
     delete DEBUG_MESSAGE_DISPLAY_WIDGET;
-#endif // Q_OS_WIN32
+#endif // BEN_LOG_WINDOW
     return ret;
 }
