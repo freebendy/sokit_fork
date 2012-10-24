@@ -1,3 +1,4 @@
 bin
 tmp
 *.pro.user
+build/linux86/sokit-build-desktop*
